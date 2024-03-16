@@ -1,0 +1,86 @@
+let result = performOperation(getRandomNumber(), getRandomNumber());
+let array = getRandomArray(); array.forEach(item => console.log(item));
+apple
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const reverseString = str => str.split("").reverse().join("");
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+apple - kiwi
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+75,19,66,58,89,44,29,30,90,82,15,40,38,6,35,33,91,83,71,57,32,98,77,99,92,89,65,12,43,65,51,23,80,70,61,37,83,64,46,39,44,63,23,22,49,61,56,73,24,23,22,98,68,28,5,59,6,37,0,74,49,97,79,43,74,81,55,14,51,95,83,80,60,23,20,17,89,35,68,40,94,13 / false
+const variableName = getRandomNumber();
+34,64,66,17,86,40,29,1,74,18,25,83,90,87,22,3,82,64,33,37,3,78,37,62,8,14,6,46,83,63,20,45,21 * 30,50,38,81,85,77,85,34,24,50,92,81,99,3,48
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+false + true
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+function addNumbers(a, b) { return a + b; }
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+// This is a comment
+27,5,28,15,99,21,80,36,73,34,23,42,12,87,16,27,0,74,83,53 / apple
+class MyClass { constructor() { this.property = getRandomString(); } }
+
+const removeDuplicates = array => Array.from(new Set(array));
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+kiwi
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+89,9,48,35,17,62,81,4,37,29,39,66,12,96,73,44,41,27,94,26,72,57,65,10,28,64,9,80,77,4,59,77,21,98,30,48,12,47,32,30,69,80,92,20,92,24,79,78,40,20,81,22,60,7,9,8,83,58,20,59,43,60,20,24,17,88,29,98 - 42
+
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+grape * 22,45,25,39,65,14,39,0,7,21,2,41,26,23,50,14,5,85,2,29,22,29,64,54,53,29,71,55,25,24,38,63,95,67,55,70,7,95,45,27,84,25,62,56,58,17,99,73,86,0,64,64,86,60,53,56,59,23,45,48,5,22,51,52,88,22,54,48,92,9
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const reverseString = str => str.split("").reverse().join("");
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const formatDate = date => new Date(date).toLocaleDateString();
+function addNumbers(a, b) { return a + b; }
+// This is a comment
+const isEven = num => num % 2 === 0;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const findSmallestNumber = numbers => Math.min(...numbers);
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+banana
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+11,14,69,78,46,51,56,51,52,85,62,74,31,0,42,89,59,22,7,13,66,36,65,91,0,84,4,46,52,44,23,38,73,34,88,40,32,51,13,36,55,99,2,79,95,92,39,57,92,28,30,76,31,15,8,50,94,12,49 + 20
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const getUniqueValues = array => [...new Set(array)];
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const getRandomSubset = (array, size) => array.slice(0, size);
+
+banana * 67
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+function addNumbers(a, b) { return a + b; }
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+const getRandomElement = array => array[getRandomIndex(array)];
+banana * 43,58,16,50,9,32,78,13,95,73,64,86,60,69,77,46,23,59,12,9,87,4,14,79,52,14,95,18,70,48,68,24,12,13,16,63,81,28,27,32,92,30,48,93,10,65,33,49,70,97,82,47,48,1,49,34,10,18,31,66,52,50,72,23,79,93,92,98,21,56,96,86,72,70,71,86,50,75,69,13,91,37,78,81
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+75 + kiwi
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+39 * 34
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+
+const multiply = (a, b) => a * b;
+const formatDate = date => new Date(date).toLocaleDateString();
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+
