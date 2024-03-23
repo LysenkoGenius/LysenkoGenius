@@ -1,0 +1,52 @@
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+87 + 84
+
+const getUniqueValues = array => [...new Set(array)];
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+60,26,8,45,23,49,27,76,72,83,24,24,30,36,55,56,36,33,63,76,7 * 60,29,15,69,36,18,6,82,86,21,79,6,85,53,1,83,9,25,4,66,44,43,1,61,70,60,24,59,21,43,10,93,17,92,87,56,62,39,50,75,0,10,42,97,87,50,67,9,31,77,79,97,4,54,52,77,13,20,71,8,43,41,63,35,10,55,50,45,20,36,77,86,98,78,38,38,68,5,67,30,10,71,23,17,22,97,10,53,5,71,58,45,72,64
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+83 + true
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+false * 54,40,95,78,9,7,39,55,61,17,81,59,94,13,99,73,15,86,0,83,21,27,33,20,22,14,31,62,53,69,58,44,94,81,95,10,55,46,48,67,26,93,54,52,52,55,8,1
+const reverseWords = str => str.split(" ").reverse().join(" ");
+grape
+
+const findLargestNumber = numbers => Math.max(...numbers);
+
+const multiply = (a, b) => a * b;
+false + true
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+const variableName = getRandomNumber();
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+function addNumbers(a, b) { return a + b; }
+true / 29,5,67,30,52,53,72,68,41,77,25,76,61,51,75,10,73,77,71,87,46,66,15,4,35,20,45,22,57,9,15,34,8,67,77,3,33,4,59,78,36,33,66,64,96,55,93,87,76,80,59,19,43,96,26,74,44,14,81,11,55,7,97,1,30,71
+
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const multiply = (a, b) => a * b;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+true * grape
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const getRandomElement = array => array[getRandomIndex(array)];
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+const curry = (fn, arity = fn.length, ...args) => arity <= args.length ? fn(...args) : curry.bind(null, fn, arity, ...args);
+57 + kiwi
+
+const isPalindrome = str => str === str.split("").reverse().join("");
+false * false
+const filterEvenNumbers = numbers => numbers.filter(isEven);
+true / false
+const squareRoot = num => Math.sqrt(num);
