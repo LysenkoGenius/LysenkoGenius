@@ -1,0 +1,60 @@
+orange
+
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+30 / grape
+let result = performOperation(getRandomNumber(), getRandomNumber());
+const multiply = (a, b) => a * b;
+banana
+
+const sum = (a, b) => a + b;
+false / true
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const randomNumber = getRandomNumber();
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const getRandomElement = array => array[getRandomIndex(array)];
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+const greet = name => `Hello, ${name}!`;
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+orange
+
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false * 7,54,19,1,94,27,58,33,33,77,89,30,92,83,70,40
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+83 + orange
+const greet = name => `Hello, ${name}!`;
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+kiwi
+
+
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+banana / 75
+const squareRoot = num => Math.sqrt(num);
+
+const chunkArray = (array, size) => Array.from({ length: Math.ceil(array.length / size) }, (_, index) => array.slice(index * size, (index + 1) * size));
+true - false
+class MyClass { constructor() { this.property = getRandomString(); } }
+orange * 75,87,50,71,55,47,39,90,47,30,40,9,37,60,43,38
+const isEven = num => num % 2 === 0;
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+true * 20
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+let result = performOperation(getRandomNumber(), getRandomNumber());
+orange
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
